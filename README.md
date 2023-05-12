@@ -49,6 +49,24 @@ __PCOS Experience__:
 ### Results and Evaluation 
 #### Part A. PCOS Hormones 
 
+Correlation of Features of Interest in Those WITHOUT PCOS
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/9f257ba9-27f5-418e-a513-3b434a1ce1fe)
+
+Correlation of Features of Interest in Those WITH PCOS
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/5453e443-72cc-4d43-936e-344d60d64611)
+
+Correlation of Features of Interest Among All Participants
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/ca1a78f8-4817-4512-8222-e331c1341d2b)
+
+
+Correlation of All Features Among All Participants
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/b9c1fe94-a965-4651-b874-900c9074af63)
+
+
+
+
 #### Part B. PCOS Experience 
+
+### Future Project Improvements
 
 

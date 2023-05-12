@@ -37,6 +37,7 @@ __PCOS Hormones__:
 * Exploratory Data Analysis
 * Numpy/Pandas
 * Binary Classification and Classifier Comparison (Using Scikit-Learn, including Naive Bayes, Random Forest, Decision Trees, and Logistic Regression)
+* Principal Component Analysis (PCA)
 * Visualization (Matplotlib, Seaborn)
 
 __PCOS Experience__:

@@ -3,9 +3,11 @@
 As per the [Center for Disease Control and Prevention (CDC)](https://www.cdc.gov/diabetes/basics/pcos.html#:~:text=What%20is%20PCOS%3F,beyond%20the%20child%2Dbearing%20years.), Polycystic Ovarian Syndrome (PCOS) affects 6-12% of all reproductive-aged women worldwide, and is one of the most common reasons for infertility. Though it is widely prevalent, it is also extremely under-researched, with no known underlying cause. With this personal project, I aim to gain an understanding of the hormonal/physiological aspects of PCOS ("PCOS Hormones" notebook), as well as get an understanding of the experiences that those with PCOS undego while living with the disorder ("PCOS Experience" notebook). 
 
 ### Goal
-I have created this project with the mind of a hypothetical: how can the data provided be beneficial for a company who would like to create an all-in-one supplement to treat PCOS? 
+I have created this project with the mind of a hypothetical: **how can the data provided be beneficial for a company who would like to create an all-in-one supplement to treat PCOS?**
 
-I have separated this project into two parts, based on two parts: biological/hormonal factors, and the overall affects PCOS has on real people, based on personal experiences. For part 1 ("PCOS Hormones" notebook), the overall goal is to analyze the dataset provided to discover any relationshups between features, to compare these relationships with those that have already been found in scientific research studies, and build a binary classifier that can identify whether someone may have PCOS or not. 
+I have separated this project into two parts, based on two areas: biological/hormonal factors, based on the provided dataset, and the overall affects PCOS has on real people, based on personal experiences shared on Reddit. 
+
+For part 1 ("PCOS Hormones" notebook), the overall goal is to analyze the dataset provided to discover any relationshups between features, to compare these relationships with those that have already been found in scientific research studies, and build a binary classifier that can identify whether someone may have PCOS or not. 
 
 For part 2 ("PCOS Experience" notebook), the goal is to gather personal experiences from Reddit users who have PCOS, and try to understand what the conversations are that occur within the PCOS community. Through information gathered directly from those who have PCOS, I attempt to find the most common topics discussed, and gain an idea of what topics should be considered when attempting to create an all-in-one supplement. 
 

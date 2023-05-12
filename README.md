@@ -46,26 +46,40 @@ __PCOS Experience__:
 * Natural Langauge Processing (Unsupervised Learning, Topic Modeling/Latent Drischlett Allocation/WordCloud)
 * API usage/understanding 
 
-### Results and Evaluation 
+### Results  
 #### Part A. PCOS Hormones 
 
-Correlation of Features of Interest in Those WITHOUT PCOS
+Correlation of Features of Interest in Those WITHOUT PCOS <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/9f257ba9-27f5-418e-a513-3b434a1ce1fe)
 
-Correlation of Features of Interest in Those WITH PCOS
+Correlation of Features of Interest in Those WITH PCOS <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/5453e443-72cc-4d43-936e-344d60d64611)
 
-Correlation of Features of Interest Among All Participants
+Correlation of Features of Interest Among All Participants <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/ca1a78f8-4817-4512-8222-e331c1341d2b)
 
 
-Correlation of All Features Among All Participants
+Correlation of All Features Among All Participants <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/b9c1fe94-a965-4651-b874-900c9074af63)
 
+Classifiers Accuracy Outputs with Different Testing Sizes <br>
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/d5dae979-f3d8-4915-9301-6416f735e682)
 
+ROC Curve of Classifiers (testing size = 18%) <br>
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/281d7b51-f085-466b-a0c2-8c4b4fd54040)
+
+ROC Curve Comparing Original Logistic Regression, and Logistic Regression with Principal Component Analysis (n_components = 6) <br>
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/4f888bb9-b964-41ad-8afc-60fddbbb4701)
+
+ROC Curve With Classifiers Fit to Features, Removing the Redundant Features (Waist:Hip Ratio, FSH:LH ratio) <br>
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/e1f40f10-34d3-4806-ae88-6fb227d71ddc)
 
 
 #### Part B. PCOS Experience 
+
+
+### Discussion 
+
 
 ### Future Project Improvements
 

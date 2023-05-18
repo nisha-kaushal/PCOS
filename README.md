@@ -80,6 +80,12 @@ ROC Curve With Classifiers Fit to Features, Removing the Redundant Features (Wai
 
 #### Part B. PCOS Experience 
 
+Descriptive Stats for the Amount of Words in the titles and bodies of posts, per subreddit
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/a4e92999-431f-4aee-9ab4-f6b863254ed6)
+
+
+
+
 
 ### Discussion 
 

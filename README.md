@@ -86,7 +86,19 @@ Descriptive Stats for the Amount of Words in the titles and bodies of posts, per
 Distribution of the titles' and bodies' polarities and subjectivities 
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/7556a000-ddaa-4577-8fde-26532bdde5cc)
 
+Topic Modeling 
 
+WordCloud for Titles (using LDA)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/52aa5c07-3a8b-41c9-bf12-77889ca34c48)
+
+WordCloud for Bodies (using LDA) 
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/e8728bd2-3ac7-420b-a049-188f6f0fe7b1)
+
+Bigrams Mentioned >100 times, for Bodies (note not all are labeled on the x-axis) 
+![pcos_bigrams_over_100](https://github.com/nisha-kaushal/PCOS/assets/100887571/a7ad79de-5d4f-4a18-8a88-d2f1bd44d558)
+
+Bigrams Mentioned >200 times, for Bodies
+![pcos_bigrams_over_200](https://github.com/nisha-kaushal/PCOS/assets/100887571/ef23fdd5-c89d-42fc-b41c-faa76df5d5c7)
 
 
 ### Discussion 

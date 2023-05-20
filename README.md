@@ -83,6 +83,8 @@ ROC Curve With Classifiers Fit to Features, Removing the Redundant Features (Wai
 Descriptive Stats for the Amount of Words in the titles and bodies of posts, per subreddit
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/a4e92999-431f-4aee-9ab4-f6b863254ed6)
 
+Distribution of the titles' and bodies' polarities and subjectivities 
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/7556a000-ddaa-4577-8fde-26532bdde5cc)
 
 
 

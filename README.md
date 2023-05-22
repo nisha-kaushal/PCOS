@@ -12,7 +12,7 @@ For part 1 ("PCOS Hormones" notebook), the overall goal is to analyze the datase
 For part 2 ("PCOS Experience" notebook), the goal is to gather personal experiences from Reddit users who have PCOS, and try to understand what the conversations are that occur within the PCOS community. Through information gathered directly from those who have PCOS, I attempt to find the most common topics discussed, and gain an idea of what topics should be considered when attempting to create an all-in-one supplement. 
 
 ### Data Sources
-The dataset used in *"PCOS Hormones"* is from Kaggle, with the following credit: <br>
+The dataset used in *"PCOS Hormones"* is from Kaggle ([here](https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos)), with the following credit: <br>
 __Author:__ Prasoon Kottarathil <br>
 __Title:__ Polycystic ovary syndrome (PCOS) <br>
 __Year:__ 2020 <br>
@@ -50,8 +50,8 @@ __PCOS Experience__:
 * API usage/understanding 
 
 ### Results  
-#### Part A. PCOS Hormones 
-
+#### Part A. PCOS Hormones <br>
+Based on research of the hormones included, it was found that Body Mass Index ('BMI'), menstrual cycle length ('Cycle length(days)'), HCG (' I   beta-HCG(mIU/mL)' and 'II    beta-HCG(mIU/mL)'), follicular stimulating hormone and luteinizing hormone ('FSH/LH'), thyroid stimulating hormone ('TSH (mIU/L)'), anti-Mullerian hormone ('AMH(ng/mL)'), prolactin ('PRL(ng/mL)'), vitamin D3 ('Vit D3 (ng/mL)'), and glucose through the random glucose test ('RBS(mg/dl)') should potentially show some patterns of correlation (see notebook for specific information). 
 Correlation of Features of Interest in Those WITHOUT PCOS <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/9f257ba9-27f5-418e-a513-3b434a1ce1fe)
 

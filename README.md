@@ -51,31 +51,34 @@ __PCOS Experience__:
 
 ### Results  
 #### Part A. PCOS Hormones <br>
-Based on research of the hormones included, it was found that Body Mass Index ('BMI'), menstrual cycle length ('Cycle length(days)'), HCG (' I   beta-HCG(mIU/mL)' and 'II    beta-HCG(mIU/mL)'), follicular stimulating hormone and luteinizing hormone ('FSH/LH'), thyroid stimulating hormone ('TSH (mIU/L)'), anti-Mullerian hormone ('AMH(ng/mL)'), prolactin ('PRL(ng/mL)'), vitamin D3 ('Vit D3 (ng/mL)'), and glucose through the random glucose test ('RBS(mg/dl)') should potentially show some patterns of correlation (see notebook for specific information). 
+Based on research of the hormones included, it was found that Body Mass Index ('BMI'), menstrual cycle length ('Cycle length(days)'), HCG (' I   beta-HCG(mIU/mL)' and 'II    beta-HCG(mIU/mL)'), follicular stimulating hormone and luteinizing hormone ('FSH/LH'), thyroid stimulating hormone ('TSH (mIU/L)'), anti-Mullerian hormone ('AMH(ng/mL)'), prolactin ('PRL(ng/mL)'), vitamin D3 ('Vit D3 (ng/mL)'), and glucose through the random glucose test ('RBS(mg/dl)') should potentially show some patterns of correlation (see notebook for specific information). To check this correlation, I created 4 correlation matrices, one for those without PCOS, one for those with PCOS, one looking at these features for the entire participant pool, and one covering the entire feature space. <br>
+
 Correlation of Features of Interest in Those WITHOUT PCOS <br>
-![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/9f257ba9-27f5-418e-a513-3b434a1ce1fe)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/9f257ba9-27f5-418e-a513-3b434a1ce1fe) <br>
+
+
 
 Correlation of Features of Interest in Those WITH PCOS <br>
-![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/5453e443-72cc-4d43-936e-344d60d64611)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/5453e443-72cc-4d43-936e-344d60d64611) <br> 
 
 Correlation of Features of Interest Among All Participants <br>
-![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/ca1a78f8-4817-4512-8222-e331c1341d2b)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/ca1a78f8-4817-4512-8222-e331c1341d2b) <br>
 
 
 Correlation of All Features Among All Participants <br>
-![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/b9c1fe94-a965-4651-b874-900c9074af63)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/b9c1fe94-a965-4651-b874-900c9074af63) <br> 
 
 Classifiers Accuracy Outputs with Different Testing Sizes <br>
-![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/d5dae979-f3d8-4915-9301-6416f735e682)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/d5dae979-f3d8-4915-9301-6416f735e682) <br> 
 
 ROC Curve of Classifiers (testing size = 18%) <br>
-![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/281d7b51-f085-466b-a0c2-8c4b4fd54040)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/281d7b51-f085-466b-a0c2-8c4b4fd54040) <br> 
 
 ROC Curve Comparing Original Logistic Regression, and Logistic Regression with Principal Component Analysis (n_components = 6) <br>
-![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/4f888bb9-b964-41ad-8afc-60fddbbb4701)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/4f888bb9-b964-41ad-8afc-60fddbbb4701) <br> 
 
 ROC Curve With Classifiers Fit to Features, Removing the Redundant Features (Waist:Hip Ratio, FSH:LH ratio) <br>
-![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/e1f40f10-34d3-4806-ae88-6fb227d71ddc)
+![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/e1f40f10-34d3-4806-ae88-6fb227d71ddc) <br> 
 
 
 #### Part B. PCOS Experience 

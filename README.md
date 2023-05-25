@@ -49,21 +49,22 @@ __PCOS Experience__:
 * Natural Langauge Processing (Unsupervised Learning, Topic Modeling/Latent Drischlett Allocation/WordCloud)
 * API usage/understanding 
 
-### Results  
+### Key Results  
 #### Part A. PCOS Hormones <br>
 Based on research of the hormones included, it was found that Body Mass Index ('BMI'), menstrual cycle length ('Cycle length(days)'), HCG (' I   beta-HCG(mIU/mL)' and 'II    beta-HCG(mIU/mL)'), follicular stimulating hormone and luteinizing hormone ('FSH/LH'), thyroid stimulating hormone ('TSH (mIU/L)'), anti-Mullerian hormone ('AMH(ng/mL)'), prolactin ('PRL(ng/mL)'), vitamin D3 ('Vit D3 (ng/mL)'), and glucose through the random glucose test ('RBS(mg/dl)') should potentially show some patterns of correlation (see notebook for specific information). To check this correlation, I created 4 correlation matrices, one for those without PCOS, one for those with PCOS, one looking at these features for the entire participant pool, and one covering the entire feature space. <br>
 
 Correlation of Features of Interest in Those WITHOUT PCOS <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/9f257ba9-27f5-418e-a513-3b434a1ce1fe) <br>
 
-
-
 Correlation of Features of Interest in Those WITH PCOS <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/5453e443-72cc-4d43-936e-344d60d64611) <br> 
+
+In the above two correlation matrices, it seems like there are no strong correlations between the features, except between I beta-HCG and II beta-HCG. In those with PCOS, it seems that there may be a slight positive relationship between BMI and FSH/LH ratio. For refereence, the closer the correlation value is to -1, the stronger the negative correlation between variables. Closer to +1 indicates a stronger positive relationship, and closer to 0 would be indicitive of a neutral relationship. The majority of values nearing 0 (neutral) could be due to the data being separated into subsets, separating the amount of data.  For this reason, I chose to look at the correlation matrix of the features of interest, with all participants. 
 
 Correlation of Features of Interest Among All Participants <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/ca1a78f8-4817-4512-8222-e331c1341d2b) <br>
 
+In the above 3 correlations matrices, there appears to be no strong correlations between features, except for a positive correlation between I beta-HCG and II beta-HCG. There is also a slightly positive correlation  in those with PCOS, between BMI and the FSH/LH ratio. This may be due to the smaller amount of data within each subset (with PCOS vs. no PCOS). 
 
 Correlation of All Features Among All Participants <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/b9c1fe94-a965-4651-b874-900c9074af63) <br> 
@@ -104,9 +105,10 @@ Bigrams Mentioned >200 times, for Bodies
 ![pcos_bigrams_over_200](https://github.com/nisha-kaushal/PCOS/assets/100887571/ef23fdd5-c89d-42fc-b41c-faa76df5d5c7)
 
 
-### Discussion 
+### Discussion  
 
 
-### Future Project Improvements
+### Pitfalls and Future Project Improvements
+While developing this project, there were a few aspects relating to the data used that may have affected the models' accuracies and overall results, mainly in the "PCOS Hormones" section of the project. The most significant of these aspects is the amount of data provided in the dataset. The dataset used included 541 patients, which, while large for the interest area (Kerala, India), classifiers would likely perform better with more data. In addition to the sparsity of the data, the data included in the dataset was imbalanced, meaning that the amount of patients included with PCOS was different from the amount of patients included who did not have PCOS. This can also affect the outcome of the classifiers, because classifiers overall tend to be biased towards the majority class. Imbalanced data also can affect the correlation between features, which is why we may not have seen many strong correlations between features, though according to the mechanisms of actions of the hormones discussed in detail, there likely should have been. To improve the quality of the outcome and analysis, I would suggest collecting more data, trying to balance the amount of those with PCOS and those without PCOS, or collect more data and then filter the majority class to be equal to that of the minority to achieve balance
 
 

@@ -5,7 +5,7 @@ As per the [Center for Disease Control and Prevention (CDC)](https://www.cdc.gov
 ### Goal
 I have created this project with the mind of a hypothetical: **how can the data provided be beneficial for a company who would like to create an all-in-one supplement to treat PCOS?**
 
-I have separated this project into two parts, based on two areas: biological/hormonal factors, based on the provided dataset, and the overall affects PCOS has on real people, based on personal experiences shared on Reddit. 
+I have separated this project into two parts, based on two areas: biological/hormonal factors combined with lifestyle choices, based on the provided dataset, and the overall affects PCOS has on real people, based on personal experiences shared on Reddit. 
 
 For part 1 ("PCOS Hormones" notebook), the overall goal is to analyze the dataset provided to discover any relationshups between features, to compare these relationships with those that have already been found in scientific research studies, and build a binary classifier that can identify whether someone may have PCOS or not. 
 

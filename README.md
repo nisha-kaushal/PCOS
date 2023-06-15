@@ -64,10 +64,13 @@ In the above two correlation matrices, it seems like there are no strong correla
 Correlation of Features of Interest Among All Participants <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/ca1a78f8-4817-4512-8222-e331c1341d2b) <br>
 
-In the above 3 correlations matrices, there appears to be no strong correlations between features, except for a positive correlation between I beta-HCG and II beta-HCG. There is also a slightly positive correlation  in those with PCOS, between BMI and the FSH/LH ratio. This may be due to the smaller amount of data within each subset (with PCOS vs. no PCOS). 
+In the above 3 correlations matrices, there appears to be no strong correlations between features, except for a positive correlation between I beta-HCG and II beta-HCG. There is also a slightly positive correlation  in those with PCOS, between BMI and the FSH/LH ratio. This may be due to the smaller amount of data within each subset (with PCOS vs. no PCOS). Among all participants, there seems to be a slight positive correlation between AMH (anti-mullerian hormone) and PCOS, as well as BMI and PCOS. 
 
 Correlation of All Features Among All Participants <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/b9c1fe94-a965-4651-b874-900c9074af63) <br> 
+Based on the coloring alone, I can already tell that I will be able to make better insights with the entire dataframe being taken into account.
+The first distinct purple (positive correlation) pattern that can be seen is the sqaure towards the bottom right of the matrix. These positively-correlated features include the following (note that they are all binary): weight gain (y/n), hair growth (y/n), skin darkening (y/n), hair loss (y/n), pimples (y/n), and fast food (y/n). These binary features are also positively correlated with PCOS, and have the highest correlation with PCOS out of all of the features. Why could this be? These binary features (aside from fast food) are all commonly correlated with each other, with the underlying cause being testosterone and insulin resistance, which is common in those with PCOS. Fast food can aggrevate these features, especially when eaten on a regular basis. <br> 
+Another interesting correlation to note is the highly positive correlation between FSH and the FSH/LH ratio. While there is a highly positive correlation between the two, there is a correlation value closer to 0 (no detectable correlation) between the FSH/LH ratio and LH. Why could this be? In many with PCOS, it is common to see a high LH value. Because our data contains data for both patients with PCOS and patients without PCOS, it is possible that there is a mix of LH values that can make the correlations less noticable. 
 
 Classifiers Accuracy Outputs with Different Testing Sizes <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/d5dae979-f3d8-4915-9301-6416f735e682) <br> 

@@ -1,8 +1,8 @@
 # Polycystic Ovarian Syndrome, Inside and Out
-### Why This Project? 
+## Why This Project? 
 As per the [Center for Disease Control and Prevention (CDC)](https://www.cdc.gov/diabetes/basics/pcos.html#:~:text=What%20is%20PCOS%3F,beyond%20the%20child%2Dbearing%20years.), Polycystic Ovarian Syndrome (PCOS) affects 6-12% of all reproductive-aged women worldwide, and is one of the most common reasons for infertility. Though it is widely prevalent, it is also extremely under-researched, with no known underlying cause. With this personal project, I aim to gain an understanding of the hormonal/physiological aspects of PCOS ("PCOS Hormones" notebook), as well as get an understanding of the experiences that those with PCOS undego while living with the disorder ("PCOS Experience" notebook). 
 
-### Goal
+## Goal
 I have created this project with the mind of a hypothetical: **how can the data provided be beneficial for a company who would like to create an all-in-one supplement to treat PCOS?**
 
 I have separated this project into two parts, based on two areas: biological/hormonal factors combined with lifestyle choices, based on the provided dataset, and the overall affects PCOS has on real people, based on personal experiences shared on Reddit. 
@@ -11,7 +11,7 @@ For part 1 ("PCOS Hormones" notebook), the overall goal is to analyze the datase
 
 For part 2 ("PCOS Experience" notebook), the goal is to gather personal experiences from Reddit users who have PCOS, and try to understand what the conversations are that occur within the PCOS community. Through information gathered directly from those who have PCOS, I attempt to find the most common topics discussed, and gain an idea of what topics should be considered when attempting to create an all-in-one supplement. 
 
-### Data Sources
+## Data Sources
 The dataset used in *"PCOS Hormones"* is from Kaggle ([here](https://www.kaggle.com/datasets/prasoonkottarathil/polycystic-ovary-syndrome-pcos)), with the following credit: <br>
 __Author:__ Prasoon Kottarathil <br>
 __Title:__ Polycystic ovary syndrome (PCOS) <br>
@@ -31,7 +31,7 @@ The above data contains 541 rows and 45 features (including whether the paitent 
 7. **r/LeanPCOS**: Subreddit for those who have the "Lean" type of PCOS, to ask questions and seek advice about how to maintain their health, tailored to their specific type of PCOS. 
 8. **r/PCOS_Folks**: Subreddit for PCOS, emphasizing LGBTQIA+ inclusivity
 
-### Skills Used 
+## Skills Used 
 __PCOS Hormones__:
 * Python Programming
 * Exploratory Data Analysis
@@ -49,8 +49,10 @@ __PCOS Experience__:
 * Natural Langauge Processing (Unsupervised Learning, Topic Modeling/Latent Drischlett Allocation/WordCloud)
 * API usage/understanding 
 
-### Key Results  
-#### Part A. PCOS Hormones <br>
+## Key Results  
+### Part A. PCOS Hormones <br>
+
+#### Feature Correlations 
 Based on research of the hormones included, it was found that Body Mass Index ('BMI'), menstrual cycle length ('Cycle length(days)'), HCG (' I   beta-HCG(mIU/mL)' and 'II    beta-HCG(mIU/mL)'), follicular stimulating hormone and luteinizing hormone ('FSH/LH'), thyroid stimulating hormone ('TSH (mIU/L)'), anti-Mullerian hormone ('AMH(ng/mL)'), prolactin ('PRL(ng/mL)'), vitamin D3 ('Vit D3 (ng/mL)'), and glucose through the random glucose test ('RBS(mg/dl)') should potentially show some patterns of correlation (see notebook for specific information). To check this correlation, I created 4 correlation matrices, one for those without PCOS, one for those with PCOS, one looking at these features for the entire participant pool, and one covering the entire feature space. <br>
 
 Correlation of Features of Interest in Those WITHOUT PCOS <br>
@@ -72,6 +74,7 @@ Based on the coloring alone, I can already tell that I will be able to make bett
 The first distinct purple (positive correlation) pattern that can be seen is the sqaure towards the bottom right of the matrix. These positively-correlated features include the following (note that they are all binary): weight gain (y/n), hair growth (y/n), skin darkening (y/n), hair loss (y/n), pimples (y/n), and fast food (y/n). These binary features are also positively correlated with PCOS, and have the highest correlation with PCOS out of all of the features. Why could this be? These binary features (aside from fast food) are all commonly correlated with each other, with the underlying cause being testosterone and insulin resistance, which is common in those with PCOS. Fast food can aggrevate these features, especially when eaten on a regular basis. <br> 
 Another interesting correlation to note is the highly positive correlation between FSH and the FSH/LH ratio. While there is a highly positive correlation between the two, there is a correlation value closer to 0 (no detectable correlation) between the FSH/LH ratio and LH. Why could this be? In many with PCOS, it is common to see a high LH value. Because our data contains data for both patients with PCOS and patients without PCOS, it is possible that there is a mix of LH values that can make the correlations less noticable. 
 
+#### Building and Comparing Classification Algorithms (Random Forest, Decision Trees, Naive Bayes, Logistic Regression)
 Classifiers Accuracy Outputs with Different Testing Sizes <br>
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/d5dae979-f3d8-4915-9301-6416f735e682) <br> 
 
@@ -85,15 +88,16 @@ ROC Curve With Classifiers Fit to Features, Removing the Redundant Features (Wai
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/e1f40f10-34d3-4806-ae88-6fb227d71ddc) <br> 
 
 
-#### Part B. PCOS Experience 
+### Part B. PCOS Experience 
 
+#### Descriptive Statistics and Post Polarities/Subjectivities
 Descriptive Stats for the Amount of Words in the titles and bodies of posts, per subreddit
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/a4e92999-431f-4aee-9ab4-f6b863254ed6)
 
 Distribution of the titles' and bodies' polarities and subjectivities 
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/7556a000-ddaa-4577-8fde-26532bdde5cc)
 
-Topic Modeling 
+#### Topic Modeling 
 
 WordCloud for Titles (using LDA)
 ![image](https://github.com/nisha-kaushal/PCOS/assets/100887571/52aa5c07-3a8b-41c9-bf12-77889ca34c48)

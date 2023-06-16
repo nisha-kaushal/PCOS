@@ -49,7 +49,7 @@ __PCOS Experience__:
 * Natural Langauge Processing (Unsupervised Learning, Topic Modeling/Latent Drischlett Allocation/WordCloud)
 * API usage/understanding 
 
-## Part 1: Overview of PCOS
+## Overview of PCOS
 
 ### What is PCOS?
 Polycystic Ovarian Syndrome (PCOS) is a heterogenous disorder, involving the biologically female reproductive and endocrine health. While the name allows for the presumption that the main characteristic is multiple cysts on the ovaries, this symptom is not shown in many cases. The overall cause for this disorder is unknown. 

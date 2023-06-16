@@ -49,6 +49,48 @@ __PCOS Experience__:
 * Natural Langauge Processing (Unsupervised Learning, Topic Modeling/Latent Drischlett Allocation/WordCloud)
 * API usage/understanding 
 
+## Part 1: Overview of PCOS
+
+### What is PCOS?
+Polycystic Ovarian Syndrome (PCOS) is a heterogenous disorder, involving the biologically female reproductive and endocrine health. While the name allows for the presumption that the main characteristic is multiple cysts on the ovaries, this symptom is not shown in many cases. The overall cause for this disorder is unknown. 
+
+While the overall cause for the disorder is unknown, there are thought to be 4 general types of POCS: 
+1. **Insulin-resistant PCOS**: The body does not respond well to insulin, causing the pancreas to produce more insulin to try and compensate. This can result into increased levels of androgens in the body (more in the "Treatment" section). This is the most common type of PCOS. 
+2. **Inflammatory PCOS**: Those with this kind of PCOS experience high levels of inflammation in the body, which stimulates the ovaries to produce more androgens, interfering with ovulation
+3. **Adrenal PCOS**: This type of PCOS is driven by the body's response to stress. A high amount of stress can cause heightened DHEA levels, increasing androgen production from the adrenal glands. 
+4. **Pill-Induced PCOS**: This type of PCOS comes after stopping contraceptive pills, because the androgens are starting to rise back to normal levels after being surpressed. This type of PCOS is usually healed within a year or less. 
+
+Because the hormones generally associated with PCOS can affect each other, it is common for PCOS patients to have a combination of two or more types. 
+
+### Signs and Symptoms
+Some common signs and symptoms of PCOS include: 
+* Irregular menstrual cycles
+* Hirsutism
+* Insulin Resistance
+* Acne
+* Male-pattern balding
+* Pelvic pain 
+* Low libido
+
+Note that these signs and symptoms are based on the underlying hormone imbalances, depending on which hormones have irregular levels.
+
+### Diagnosis 
+PCOS diagnosis is based on 3 criteria, known as the __Rotterdam Criteria__:
+1. Irregular ovulation 
+2. Heightened androgen levels
+3. Cysts on ovaries
+
+A diagnosis requires 2 of the 3 above requirements to be fulfilled. <br>
+
+While the Rotterdam Criteria is the most widely used by clinicians for diagnosis, there are also the **NICHD/NIH Criteria** and the **Androgen Excess Society's Criteria**. These two criteria models are very similar to the Rotterdam criteria, with the main difference being an emphasis on ruling out any other possible disorders that can present themselves similar to how PCOS presents. 
+
+### Treatment
+Because the underlying cause of PCOS is unknown, treatment is heavily based on healing the symptoms, especially heightened androgens and insulin resistance, since they are known to be heavily connected. Heightened androgen levels (***hyperandrogenism***) can inhibit follicular development, ovarian microcysts, and menstrual irregularities, including anovulation. Hyperandrogenism can be aggrevated by insulin resistance, as excess insulin promotes ovarian androgen production. 
+
+The following are some common treatment options for PCOS symptoms: <br> 
+- ***Anti-diabetic agents***: With insulin resistance, there is a heightened risk of pre-diabetes and type II diabetes. 
+- ***Anti-androgenic agents***: Insulin resistance can cause the ovaries to produce excess androgens, causing irregularities in the menstrual cycle, and causing outward changes to the body (including hirsutism, acne-prone/oily skin, and more). Anti-androgenic agents can help reduce the affects the excess androgens have on the body. 
+
 ## Key Results  
 ### Part A. PCOS Hormones <br>
 
